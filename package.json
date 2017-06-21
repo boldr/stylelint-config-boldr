@@ -1,0 +1,23 @@
+{
+  "name": "stylelint-config-boldr",
+  "version": "0.1.1",
+  "description": "stylelint config for boldr projects",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "rules"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["stylelint"],
+  "author": "Steven Truesdell <steven@strues.io>",
+  "license": "MIT",
+  "peerDependencies": {
+    "stylelint": "^7.11.1"
+  },
+  "dependencies": {
+    "stylelint-order": "^0.5.0",
+    "stylelint-scss": "^1.4.4"
+  }
+}
