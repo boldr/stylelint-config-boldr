@@ -18,8 +18,8 @@ module.exports = {
     'declaration-property-unit-whitelist': null,
     'declaration-property-value-blacklist': {
         '/border/': ['/thin/', '/medium/', '/thick/'],
-        '/transition/': ['/all/'],
-        '/transition-property/': ['/all/']
+        '/transition/': null,
+        '/transition-property/': null,
     },
     'declaration-property-value-whitelist': null
 };
